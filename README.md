@@ -1,6 +1,6 @@
-* Java_Selenium_Automation_Framework_SW
+# Java_Selenium_Automation_Framework_SW
 
-** Features of the Framework:
+## Features of the Framework:
 -----------------------------
   * Cross Broswer Testing
   * configurations using properties files
@@ -15,7 +15,7 @@
   * Reporting : extentreports
 
 
-** Running the Tests : 
+## Running the Tests : 
 ----------------------
   1. Clone this git repository
   1. Add the necessary drivers(Chromedriver, Geckodriver, edgedriver…) to this folder location:
