@@ -7,12 +7,12 @@
     </listeners>
 
     <test name="Test">
+        <parameter name = "searchText" value="Automation"/>
+        <parameter name = "expectedItemQuantity" value="2 item"/>
+        <parameter name = "expectedItemQuantityAfterDeletedItem" value="0 items"/>
+        <parameter name = "expectedSubTotalAfterDeletedItem" value="$0.00"/>
         <classes>
-            <class name="com.bmsoft.tests.THome"/>
-            <class name="com.bmsoft.tests.TBooks"/>
-            <class name="com.bmsoft.tests.TFurniture"/>
-            <class name="com.bmsoft.tests.TLeftNavigation"/>
-            <class name="com.bmsoft.tests.TSearch"/>
+            <class name="com.bmsoft.tests.CartItemRemovalTest"/>
         </classes>
     </test>
 </suite>
